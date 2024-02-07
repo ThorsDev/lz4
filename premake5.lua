@@ -3,8 +3,8 @@ project "lz4"
 	language "C"
 	staticruntime "on"
 	
-	targetdir ("bin/%{cfg.buildcfg}/${prj.name}")
-	objdir ("bin-int/%{cfg.buildcfg}/%{prj.name}")
+	targetdir ("bin/%{cfg.buildcfg}/")
+	objdir ("bin-int/%{cfg.buildcfg}/")
 	
 	files
 	{
