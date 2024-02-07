@@ -8,13 +8,13 @@ project "lz4"
 	
 	files
 	{
-		"lib/*.h"
+		"lib/*.h",
 		"lib/*.c"
 	}
 	
 	includedirs
 	{
-		"freetype/include"
+		"lib"
 	}
 	
 	filter "system:windows"
